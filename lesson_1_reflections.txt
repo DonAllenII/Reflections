@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It clearly shows which lines of code have had changes made to them between versions, which allows you to quickly and more efficiently pinpoint the bug than debugging without any cross-reference.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Accessing the entire history will allow you to pinpoint when key changes were made to the file and respond accordingly.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros include having each commit coincide with some change that is significant, whether it be adding a new feature, fixing a bug, or etc.
+Cons include potentially losing significant portions of code if the programmer doesn't remember to commit manually.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems allow saving multiple files in one commit because a change in one file can ultimately change how that file interacts with the other files in the commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The command git log will list all of the commits from the most recent to very first commit, allowing you to see what type code was added in chronological order. The command git diff allows you to compare two different commits and view exactly which lines of code were changed between the two. The combinational use of these two commands can allow you to pinpoint any section of code in the coding history of your files.
+
+How might using version control make you more confident to make changes that could break something?
+
+With version control you can always revert back to previous version of a file, which in turn could make you a lot more ambitious in coding between versions.
